@@ -386,7 +386,7 @@ class Transformer(nn.Module):
             if idx_next.item() == 2:
                 break
 
-checkpoint = 'out32M/ckpt.pt'
+checkpoint = 'ckpt.pt'
 tokenizer = "tok2048.model" # override the tokenizer model path
 max_new_tokens = 1024 # number of tokens generated in each sample
 temperature = 0.5 # 1.0 = no change, < 1.0 = less random, > 1.0 = more random, in predictions
