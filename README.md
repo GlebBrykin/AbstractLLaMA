@@ -1,5 +1,14 @@
 # AbstractLLaMA
-LLM for generating an Abstract based on the paper's title
+
+<p align="center">
+  <img src="https://github.com/GlebBrykin/AbstractLLaMA/blob/main/.content/Screenshot.jpg" alt="Screenshot.jpg">
+</p>
+
+**Title**: _AbstractLLaMA: Title-Based Abstract Generator for arXiv Papers_
+
+**Abstract (from our AbstractLLaMA)**:
+
+> The recent breakthroughs in large language models (LLMs) have led to significant progress in various natural language processing tasks, including generating titles for specific questions. However, the absence of a comprehensive taxonomy, which covers a broad range of questions, has limited the effectiveness of these models. In this paper, we propose AbstractLLaMA, a novel framework that leverages abstract generators to enhance LLMs' performance in title-based abstract generation. AbstractLLaMA leverages the fact-checking capabilities of LLMs to identify and identify critical elements and abstract steps in the title. By applying this abstraction to the generated titles, AbstractLLaMA generates more accurate and diverse titles. To address the inherent issue of the generation process, AbstractLLaMA employs a multi-stage training strategy that iteratively fine-tunes the LLM with abstract and high-quality titles. Our extensive experiments on three real-world datasets demonstrate that AbstractLLaMA significantly outperforms existing baselines, achieving improvements of 2.7% on F1-score.
 
 # Metrics
 
